@@ -72,4 +72,4 @@
   vars:
     enable_responses: "{{ {mellanox_enable_prompt: ['enable', 'exit']} }}"
     main_responses: "{{ {mellanox_main_prompt: ['configure terminal', 'exit']} }}"
-    config_responses: "{{ {mellanox_config_prompt: 'write memory' + ['exit']} }}"
+    config_responses: "{{ {mellanox_config_prompt: ['write memory', 'exit']} }}"
